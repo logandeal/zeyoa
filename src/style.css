@@ -1,0 +1,51 @@
+body {
+  font-size: 24px;
+  background-color: antiquewhite;
+  text-align: center;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: red;
+  height: 200px;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  width: 200px;
+
+  border: none;
+  border-radius: 0px;
+  background-color: lightgrey;
+  box-shadow: 2px 2px #000000, 4px 4px #000000;
+
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.header-description {
+  padding: 20px;
+}
+
+.header-text {
+  font-weight: bold;
+}
+
+p.smallTitle {
+  font-weight: bold;
+}
